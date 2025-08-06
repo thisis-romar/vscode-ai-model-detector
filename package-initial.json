@@ -1,0 +1,16 @@
+{
+  "name": "vscode-ai-model-detector",
+  "version": "1.0.0",
+  "description": "VS Code AI Model Detector - Real-time detection tool",
+  "main": "test-final-detection.js",
+  "scripts": {
+    "start": "node test-final-detection.js",
+    "test": "node test-final-detection.js"
+  },
+  "keywords": ["vscode", "ai", "model", "detection", "copilot"],
+  "author": "Claude Sonnet 4 <admin+llm-claude-sonnet-4@emblemprojects.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
