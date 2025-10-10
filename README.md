@@ -268,11 +268,11 @@ public async detectCurrentModel(): Promise<ModelDetectionResult> {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Related Projects
+## 🔗 Project Components
 
-- **[VS Code Copilot Chat Extractor](../vscode-copilot-chat-extractor/)**: Chat history analysis with model correlation
-- **[MCP Server](../mcp-server/)**: Sequential thinking and development methodology
-- **[Emblem-Projects Tools](../../)**: Complete development workflow optimization
+- **[MCP Server](mcp-server/)**: Enhanced model detection capabilities through Model Context Protocol integration
+- **[Installation Guide](INSTALLATION_GUIDE.md)**: Step-by-step setup instructions
+- **[Publishing Guide](PUBLISHING_GUIDE.md)**: Guide for publishing to VS Code Marketplace
 
 ---
 
