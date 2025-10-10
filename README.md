@@ -96,11 +96,39 @@ VS Code Chat Interface
 
 ## 🔧 Installation
 
-### **Development Setup**
+### **Quick Install (Recommended)**
+
+Install the MCP server via npm:
 
 ```bash
-# Navigate to the extension directory
-cd packages/vscode-ai-model-detector
+npm install -g vscode-ai-model-detector
+```
+
+For detailed installation instructions, see [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md).
+
+### **MCP Configuration**
+
+Add to your `claude_desktop_config.json` or VS Code `mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "ai-model-detector": {
+      "command": "npx",
+      "args": ["-y", "vscode-ai-model-detector"]
+    }
+  }
+}
+```
+
+### **Development Setup**
+
+For contributors and developers:
+
+```bash
+# Clone the repository
+git clone https://github.com/thisis-romar/vscode-ai-model-detector.git
+cd vscode-ai-model-detector
 
 # Install dependencies
 npm install
@@ -108,19 +136,11 @@ npm install
 # Compile TypeScript
 npm run compile
 
-# Launch Extension Development Host
-npm run watch    # In one terminal
-F5               # In VS Code (or use Run Extension debug config)
+# Run in development mode
+npm run watch
 ```
 
-### **Building for Distribution**
-
-```bash
-# Package the extension
-npm run package
-
-# This creates: vscode-ai-model-detector-1.0.0.vsix
-```
+See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for distribution and packaging details.
 
 ## 📊 Configuration
 
