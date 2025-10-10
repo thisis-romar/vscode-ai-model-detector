@@ -2,16 +2,16 @@
   "name": "vscode-ai-model-detector",
   "displayName": "AI Model Detector",
   "description": "Real-time AI model detection with 100% accuracy using Chat Participant API",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "publisher": "emblem-projects",
   "author": {
-    "name": "Emblem Projects",
-    "email": "tools@emblem-projects.com"
+    "name": "Romar Johnson",
+    "email": "admin@emblemprojects.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emblem-projects/tools"
+    "url": "https://github.com/thisis-romar/vscode-ai-model-detector"
   },
   "engines": {
     "vscode": "^1.85.0"
