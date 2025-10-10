@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "h:",
+			"path": "../../../../.."
+		}
+	],
+	"settings": {
+		"chat.promptFiles": true,
+		"files.exclude": {
+			"$RECYCLE.BIN": true,
+			"System Volume Information": true
+		},
+		"powershell.cwd": "h:\\",
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
+		"markdown.validate.enabled": true,
+		"markdown.validate.duplicateLinkDefinitions.enabled": "error",
+		"markdown.validate.fileLinks.enabled": "error",
+		"markdown.validate.fragmentLinks.enabled": "error",
+		"markdown.validate.ignoredLinks": [],
+		"markdown.validate.referenceLinks.enabled": "error",
+		"markdown.validate.unusedLinkDefinitions.enabled": "error",
+		"files.associations": {
+			"*.md": "markdown",
+			"*.code-workspace": "jsonc"
+		},
+		"editor.formatOnSave": true,
+		"editor.rulers": [
+			80,
+			120
+		],
+		"explorer.confirmDelete": false,
+		"explorer.confirmDragAndDrop": false,
+		"git.ignoreLimitWarning": true
+	}
+}

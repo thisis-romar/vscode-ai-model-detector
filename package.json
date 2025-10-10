@@ -1,41 +1,139 @@
 {
-  "name": "ai-model-detector-mcp-server",
-  "version": "2.0.0",
-  "description": "Model Context Protocol server for AI model detection with 100% accuracy",
-  "main": "dist/index.js",
-  "type": "module",
-  "engines": {
-    "node": ">=18.0.0"
+  "name": "vscode-ai-model-detector",
+  "displayName": "AI Model Detector",
+  "description": "Real-time AI model detection with 100% accuracy using Chat Participant API",
+  "version": "1.0.0",
+  "publisher": "emblem-projects",
+  "author": {
+    "name": "Emblem Projects",
+    "email": "tools@emblem-projects.com"
   },
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsc --watch",
-    "clean": "rimraf dist",
-    "prepare": "npm run build"
-  },
-  "keywords": [
-    "mcp",
-    "model-context-protocol",
-    "ai",
-    "model-detection",
-    "github-copilot",
-    "vscode"
-  ],
-  "author": "Emblem Projects",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emblem-projects/emblem-mcp-servers"
+    "url": "https://github.com/emblem-projects/tools"
   },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0",
-    "sqlite3": "^5.1.7",
-    "zod": "^3.23.8"
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "AI",
+    "Chat"
+  ],
+  "keywords": [
+    "ai",
+    "model",
+    "detection",
+    "copilot",
+    "chat",
+    "real-time"
+  ],
+  "activationEvents": [
+    "onLanguage:*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "ai-model-detector.participant",
+        "name": "modeldetector",
+        "fullName": "AI Model Detector",
+        "description": "Real-time AI model detection with 100% accuracy",
+        "isSticky": false,
+        "commands": [
+          {
+            "name": "detect",
+            "description": "Detect current AI model with complete information"
+          },
+          {
+            "name": "monitor",
+            "description": "Enable continuous model monitoring in status bar"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "command": "aiModelDetector.detect",
+        "title": "Detect Current AI Model",
+        "category": "AI Model Detector"
+      },
+      {
+        "command": "aiModelDetector.toggleStatusBar",
+        "title": "Toggle Status Bar Model Display",
+        "category": "AI Model Detector"
+      },
+      {
+        "command": "aiModelDetector.showHistory",
+        "title": "Show Model Detection History",
+        "category": "AI Model Detector"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "aiModelDetector.detect",
+        "key": "ctrl+shift+m",
+        "mac": "cmd+shift+m",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "AI Model Detector",
+      "properties": {
+        "aiModelDetector.enableStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show current AI model in status bar"
+        },
+        "aiModelDetector.enableNotifications": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show notifications when AI model changes"
+        },
+        "aiModelDetector.historyLimit": {
+          "type": "number",
+          "default": 50,
+          "description": "Maximum number of model detections to store in history"
+        },
+        "aiModelDetector.autoDetectInterval": {
+          "type": "number",
+          "default": 5000,
+          "description": "Automatic detection interval in milliseconds (0 to disable)"
+        },
+        "aiModelDetector.enableLogging": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable detailed logging for model detection operations"
+        },
+        "aiModelDetector.showWarnings": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show warning messages in VS Code UI (requires logging enabled)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "rimraf": "^5.0.0",
-    "typescript": "^5.3.0"
-  }
+    "@types/vscode": "^1.85.0",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6",
+    "@vscode/test-electron": "^2.3.4",
+    "@vscode/vsce": "^2.22.0"
+  },
+  "dependencies": {}
 }

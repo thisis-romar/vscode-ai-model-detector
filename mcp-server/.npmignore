@@ -1,0 +1,40 @@
+# Development files
+src/
+tsconfig.json
+*.test.js
+*.test.mjs
+test-*.js
+test-*.mjs
+demo.mjs
+
+# Build artifacts
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+__tests__/
+coverage/
+
+# Documentation (keep README.md)
+docs/
+REFACTORING_SUMMARY.md
+
+# Backup files
+*.backup
+*-backup.*
+start-backup.mjs
+start-refactored.mjs
+
+# MCP config (local only)
+mcp.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+.DS_Store
+Thumbs.db

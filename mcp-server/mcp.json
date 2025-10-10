@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ai-model-detector": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "h:\\-EMBLEM-PROJECT(s)-\\Tools\\packages\\vscode-ai-model-detector\\mcp-server"
+    }
+  }
+}
