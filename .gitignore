@@ -51,6 +51,57 @@ jspm_packages/
 dist/
 build/
 
+# Compiled output (should never be committed)
+out/
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Development documentation (internal only)
+*_COMPLETE.md
+*_STATUS.md
+*_RESULTS.md
+*_ANALYSIS.md
+*_STRATEGY.md
+*_INTEGRATION.md
+*DEMONSTRATION.md
+README-initial.md
+README_FOR_DAD.md
+IMPLEMENTATION_COMPLETE.md
+PHASE3_COMPLETE.md
+PHASE3_INTEGRATION_COMPLETE.md
+PUBLICATION_STATUS.md
+PUBLISHING_PREPARATION_COMPLETE.md
+LOCAL_TESTING_RESULTS.md
+MCP_TESTING_COMPLETE.md
+
+# Development context files
+*-context.json
+mcp-development-context.json
+mcp-phase3-integration-context.json
+
+# Test and demo files
+test-*.js
+test-*.mjs
+demo-*.js
+demo-*.mjs
+demo-*.ts
+verify-*.mjs
+code-demonstration.ts
+
+# Personal configurations
+*.code-workspace
+Version-*.code-workspace
+
+# Backup files
+*-initial.json
+package-initial.json
+
+# MCP server internal documentation
+mcp-server/REFACTORING*.md
+mcp-server/test-*.js
+mcp-server/panel-only-detection.js
+
 # OS generated files
 .DS_Store
 .DS_Store?
