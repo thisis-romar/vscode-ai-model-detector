@@ -1,180 +1,148 @@
-# VS Code AI Model Detector - Installation Guide# VS Code AI Model Detector - Installation Guide# VS Code AI Model Detector - Installation Guide# AI Model Detector - Installation Guide for Others
+# VS Code AI Model Detector - Installation Guide# VS Code AI Model Detector - Installation Guide# VS Code AI Model Detector - Installation Guide# VS Code AI Model Detector - Installation Guide# AI Model Detector - Installation Guide for Others
 
 
 
 **Version**: 2.1.0  
 
-**Package**: [vscode-ai-model-detector](https://www.npmjs.com/package/vscode-ai-model-detector)  
+**Extension Type**: VS Code Extension with MCP Integration  
 
 **Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)  **Version**: 2.1.0  
 
-**Published**: ✅ **Publicly Available on npm**
+**Marketplace**: Coming Soon
 
 **Package**: [vscode-ai-model-detector](https://www.npmjs.com/package/vscode-ai-model-detector)  
 
 ---
 
-**Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)  **Version**: 2.1.0  ## 📦 **Current Status**
+**Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)  **Version**: 2.1.0  
 
-## 📦 Current Status
+## 📦 What Is This?
 
 **Published**: ✅ **Publicly Available on npm**
 
+**VS Code AI Model Detector** is a VS Code extension that provides real-time AI model detection for GitHub Copilot. It uses the Chat Participant API breakthrough for 100% accurate model detection and includes an integrated MCP (Model Context Protocol) server for enhanced capabilities.
+
+**Package**: [vscode-ai-model-detector](https://www.npmjs.com/package/vscode-ai-model-detector)  
+
+### Key Features
+
+---
+
+- ✅ **100% Accurate Detection**: Direct access to VS Code's selected AI model via Chat Participant API
+
+- ✅ **Status Bar Integration**: Real-time model information in your VS Code status bar**Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)  **Version**: 2.1.0  ## 📦 **Current Status**
+
+- ✅ **Chat Participant**: `@modeldetector` command for instant model information
+
+- ✅ **MCP Integration**: Built-in MCP server for enhanced tool capabilities## 📦 Current Status
+
+- ✅ **Multi-Model Support**: Works with Claude, GPT-4, Gemini, and all GitHub Copilot models
+
+**Published**: ✅ **Publicly Available on npm**
+
+---
+
 - ✅ **Published on npm**: https://www.npmjs.com/package/vscode-ai-model-detector
+
+## 📋 Prerequisites
 
 - ✅ **Version**: 2.1.0 (MCP Server)**Package**: [vscode-ai-model-detector](https://www.npmjs.com/package/vscode-ai-model-detector)  - **Version**: 1.0.0 (Extension) + 2.1.0 (MCP Server)
 
+Before installing, ensure you have:
+
 - ✅ **Public Repository**: https://github.com/thisis-romar/vscode-ai-model-detector
 
-- ✅ **Installation**: Simple npm install---
+- ✅ **VS Code** v1.85.0 or higher ([download](https://code.visualstudio.com/))
+
+- ✅ **GitHub Copilot** extension installed and active- ✅ **Installation**: Simple npm install---
+
+- ✅ **GitHub Copilot Chat** extension (for `@modeldetector` participant)
+
+- ✅ **Node.js** v18+ (only if using MCP features, [download](https://nodejs.org/))
 
 
 
----**Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)- **Published**: ❌ Not publicly available
+------**Repository**: [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector)- **Published**: ❌ Not publicly available
 
 
 
-## 📋 Prerequisites## 📦 Current Status
+## 🚀 Installation Methods
 
 
 
-Before installing, ensure you have:- **Installation**: Manual sharing required
+### Method 1: VS Code Marketplace (Recommended - Coming Soon)## 📋 Prerequisites## 📦 Current Status
 
 
 
-- ✅ **VS Code** installed (latest version recommended)- ✅ **Published on npm**: https://www.npmjs.com/package/vscode-ai-model-detector
-
-- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))
-
-- ✅ **GitHub Copilot** extension installed and active- ✅ **Version**: 2.1.0 (MCP Server)---
+Once published, install directly from the VS Code Extensions marketplace:
 
 
 
----- ✅ **Public Repository**: https://github.com/thisis-romar/vscode-ai-model-detector
+1. Open VS CodeBefore installing, ensure you have:- **Installation**: Manual sharing required
+
+2. Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
+
+3. Search for "AI Model Detector"
+
+4. Click **Install**
+
+5. Reload VS Code when prompted- ✅ **VS Code** installed (latest version recommended)- ✅ **Published on npm**: https://www.npmjs.com/package/vscode-ai-model-detector
 
 
+
+### Method 2: VSIX Package Installation (Current Method)- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))
+
+
+
+For early access or development versions:- ✅ **GitHub Copilot** extension installed and active- ✅ **Version**: 2.1.0 (MCP Server)---
+
+
+
+1. **Download** the latest `.vsix` file from [GitHub Releases](https://github.com/thisis-romar/vscode-ai-model-detector/releases)
+
+
+
+2. **Install via VS Code**:---- ✅ **Public Repository**: https://github.com/thisis-romar/vscode-ai-model-detector
+
+   ```bash
+
+   code --install-extension vscode-ai-model-detector-2.1.0.vsix
+
+   ```
 
 ## 🚀 Installation Methods- ✅ **Installation**: Simple npm install---
 
+   Or manually:
+
+   - Open VS Code
+
+   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
+
+   - Type "Install from VSIX"### Method 1: Global Installation (Recommended)
+
+   - Select the downloaded `.vsix` file
 
 
-### Method 1: Global Installation (Recommended)
 
-
+3. **Reload VS Code** when prompted
 
 Install the MCP server globally via npm:---## 📋 Prerequisites
 
+### Method 3: Development Installation
 
+
+
+For contributors and developers:
 
 ```bash
 
-npm install -g vscode-ai-model-detector
-
-```## 📋 Prerequisites## 🚀 **Option 1: Quick Share via VSIX (Recommended for Family/Friends)**
-
-
-
-#### Configuration
-
-
-
-Create or update your Claude Desktop config file:Before installing, ensure you have:Before installing, ensure you have:
-
-
-
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`  
-
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
-
-**Linux**: `~/.config/Claude/claude_desktop_config.json`- ✅ **VS Code** installed (latest version recommended)### **For You (Package Creator):**
-
-
-
-Add this configuration:- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))
-
-
-
-```json- ✅ **GitHub Copilot** extension installed and active- ✅ **VS Code** installed (latest version recommended)
-
-{
-
-  "mcpServers": {
-
-    "ai-model-detector": {
-
-      "command": "vscode-ai-model-detector"---- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))```powershell
-
-    }
-
-  }
-
-}
-
-```## 🚀 Installation Methods- ✅ **GitHub Copilot** extension installed and active# Navigate to extension directory
-
-
-
-#### Restart Claude Desktop
-
-
-
-Close and reopen Claude Desktop to load the MCP server.### Method 1: Global Installation (Recommended)- ✅ **npm** (comes with Node.js)cd H:\-EMBLEM-PROJECT(s)-\Tools\packages\vscode-ai-model-detector
-
-
-
----
-
-
-
-### Method 2: npx (No Installation Required)Install the MCP server globally via npm:
-
-
-
-Use npx to run the server without installing:
-
-
-
-```json```bash---# Install dependencies (if not already done)
-
-{
-
-  "mcpServers": {npm install -g vscode-ai-model-detector
-
-    "ai-model-detector": {
-
-      "command": "npx",```npm install
-
-      "args": ["-y", "vscode-ai-model-detector"]
-
-    }
-
-  }
-
-}#### Configuration## 🚀 Quick Start
-
-```
-
-
-
----
-
-Create or update your Claude Desktop config file:# Compile TypeScript
-
-### Method 3: Local Development Installation
-
-
-
-For contributing or testing:
-
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`  ### Install via npmnpm run compile
-
 ```bash
 
-# Clone the repository**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
+# Clone the repositorynpm install -g vscode-ai-model-detector
 
 git clone https://github.com/thisis-romar/vscode-ai-model-detector.git
 
-cd vscode-ai-model-detector**Linux**: `~/.config/Claude/claude_desktop_config.json`
+cd vscode-ai-model-detector```## 📋 Prerequisites## 🚀 **Option 1: Quick Share via VSIX (Recommended for Family/Friends)**
 
 
 
@@ -182,179 +150,568 @@ cd vscode-ai-model-detector**Linux**: `~/.config/Claude/claude_desktop_config.js
 
 npm install
 
-Add this configuration:The easiest way to install the MCP server:# Package the extension
+#### Configuration
 
-# Link for local development
+# Compile TypeScript
 
-npm link
-
-```
-
-```jsonnpm run package
-
-Then use the same Claude Desktop configuration as Method 1.
-
-{
-
----
-
-  "mcpServers": {```bash```
-
-## 🔧 VS Code Configuration
-
-    "ai-model-detector": {
-
-### Using MCP Tools in VS Code
-
-      "command": "vscode-ai-model-detector"npm install -g vscode-ai-model-detector
-
-Once installed, the MCP server provides 4 tools accessible through GitHub Copilot Chat:
-
-    }
-
-1. **`detect_current_model`** - Detect currently active AI model
-
-2. **`validate_model_access`** - List all available models  }```This creates: `vscode-ai-model-detector-1.0.0.vsix`
-
-3. **`get_model_capabilities`** - Analyze model capabilities
-
-4. **`monitor_model_changes`** - Monitor for model switches}
+npm run compile
 
 
 
-### Example Usage```
+# Package extension (optional)Create or update your Claude Desktop config file:Before installing, ensure you have:Before installing, ensure you have:
+
+npm run package
 
 
 
-In GitHub Copilot Chat, you can now:
+# Run in development mode
 
-
-
-```#### Restart Claude Desktop---### **Share These Files:**
-
-@workspace What AI model am I currently using?
+# Press F5 in VS Code to launch Extension Development Host**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`  
 
 ```
 
-
-
-The MCP server will detect the model and return accurate information.Close and reopen Claude Desktop to load the MCP server.1. `vscode-ai-model-detector-1.0.0.vsix` (VS Code Extension)
-
-
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
 
 ---
 
+**Linux**: `~/.config/Claude/claude_desktop_config.json`- ✅ **VS Code** installed (latest version recommended)### **For You (Package Creator):**
 
-
-## ✅ Verification---## 🔧 Configuration2. Entire `mcp-server` folder (MCP Integration)
-
-
-
-After installation, verify the setup:
+## ✅ Verification
 
 
 
-### 1. Check Package Installation### Method 2: npx (No Installation Required)3. This installation guide
+After installation, verify the extension is working:
+
+Add this configuration:- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))
+
+### 1. Check Extension is Installed
 
 
 
 ```bash
 
-npm list -g vscode-ai-model-detector
-
-```Use npx to run the server without installing:### 1. Configure MCP in Claude Desktop
-
-
-
-Expected output:
-
-```
-
-vscode-ai-model-detector@2.1.0```json---
+code --list-extensions | findstr vscode-ai-model-detector```json- ✅ **GitHub Copilot** extension installed and active- ✅ **VS Code** installed (latest version recommended)
 
 ```
 
 {
+
+Expected output:
+
+```  "mcpServers": {
+
+emblem-projects.vscode-ai-model-detector
+
+```    "ai-model-detector": {
+
+
+
+### 2. Check Status Bar      "command": "vscode-ai-model-detector"---- ✅ **Node.js** v18 or higher ([download](https://nodejs.org/))```powershell
+
+
+
+Look for the model detector icon in the VS Code status bar (bottom):    }
+
+- 🤖 **Icon**: Shows current AI model vendor
+
+- **Text**: Displays current model name  }
+
+- **Click**: Opens detailed model information
+
+}
+
+### 3. Test Chat Participant
+
+```## 🚀 Installation Methods- ✅ **GitHub Copilot** extension installed and active# Navigate to extension directory
+
+Open GitHub Copilot Chat and try:
+
+
+
+```
+
+@modeldetector#### Restart Claude Desktop
+
+```
+
+
+
+Expected response: Comprehensive model detection information including:
+
+- Current model name and vendorClose and reopen Claude Desktop to load the MCP server.### Method 1: Global Installation (Recommended)- ✅ **npm** (comes with Node.js)cd H:\-EMBLEM-PROJECT(s)-\Tools\packages\vscode-ai-model-detector
+
+- Model ID and version
+
+- Detection accuracy (100%)
+
+- Detection method (Chat Participant API)
+
+---
+
+### 4. Test Commands
+
+
+
+Press `Ctrl+Shift+P` and search for:
+
+- "AI Model Detector: Detect Current Model"### Method 2: npx (No Installation Required)Install the MCP server globally via npm:
+
+- "AI Model Detector: Toggle Status Bar"
+
+
+
+---
+
+Use npx to run the server without installing:
+
+## 🔧 Configuration
+
+
+
+Access settings via `Ctrl+,` → Search "AI Model Detector"
+
+```json```bash---# Install dependencies (if not already done)
+
+### Available Settings
+
+{
+
+```json
+
+{  "mcpServers": {npm install -g vscode-ai-model-detector
+
+  "aiModelDetector.enableStatusBar": true,
+
+  "aiModelDetector.statusBarUpdateInterval": 5000,    "ai-model-detector": {
+
+  "aiModelDetector.autoDetectInterval": 5000,
+
+  "aiModelDetector.enableMcpIntegration": true      "command": "npx",```npm install
+
+}
+
+```      "args": ["-y", "vscode-ai-model-detector"]
+
+
+
+| Setting | Type | Default | Description |    }
+
+|---------|------|---------|-------------|
+
+| `enableStatusBar` | boolean | `true` | Show/hide status bar item |  }
+
+| `statusBarUpdateInterval` | number | `5000` | Status bar update frequency (milliseconds) |
+
+| `autoDetectInterval` | number | `5000` | Auto-detection interval (milliseconds) |}#### Configuration## 🚀 Quick Start
+
+| `enableMcpIntegration` | boolean | `true` | Enable MCP server features |
+
+```
+
+---
+
+
+
+## 🌉 MCP Integration (Advanced)
+
+---
+
+The extension includes a built-in MCP server that provides enhanced capabilities through VS Code's Model Context Protocol support.
+
+Create or update your Claude Desktop config file:# Compile TypeScript
+
+### What is MCP Integration?
+
+### Method 3: Local Development Installation
+
+The MCP (Model Context Protocol) server runs **inside the VS Code extension** and provides 4 additional tools:
+
+
+
+1. **`detect_current_model`** - Enhanced detection with metadata
+
+2. **`get_model_capabilities`** - Detailed model specificationsFor contributing or testing:
+
+3. **`monitor_model_changes`** - Real-time change tracking
+
+4. **`validate_model_access`** - Access verification**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`  ### Install via npmnpm run compile
+
+
+
+### How It Works```bash
+
+
+
+```# Clone the repository**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
+
+VS Code GitHub Copilot Chat
+
+        ↕️ (Primary: 100% Accurate)git clone https://github.com/thisis-romar/vscode-ai-model-detector.git
+
+   Chat Participant API  
+
+        ↕️ (Secondary: Enhanced Features)cd vscode-ai-model-detector**Linux**: `~/.config/Claude/claude_desktop_config.json`
+
+    IPC Bridge (Port 3001)
+
+        ↕️
+
+    Built-in MCP Server
+
+```# Install dependencies
+
+
+
+### MCP Configuration (VS Code)npm install
+
+
+
+The MCP server is automatically configured when the extension is installed. No additional setup required.Add this configuration:The easiest way to install the MCP server:# Package the extension
+
+
+
+**Note**: This is NOT the same as Claude Desktop's `claude_desktop_config.json`. This uses VS Code's built-in MCP Server Definition Provider system.# Link for local development
+
+
+
+### Verify MCP Servernpm link
+
+
+
+To check if the MCP server is running:```
+
+
+
+1. Open VS Code Output panel: `View > Output````jsonnpm run package
+
+2. Select "AI Model Detector" from the dropdown
+
+3. Look for: "MCP Server started successfully on port 3001"Then use the same Claude Desktop configuration as Method 1.
+
+
+
+---{
+
+
+
+## 🐛 Troubleshooting---
+
+
+
+### Extension Not Loading  "mcpServers": {```bash```
+
+
+
+**Issue**: Extension doesn't appear in Extensions list## 🔧 VS Code Configuration
+
+
+
+**Solutions**:    "ai-model-detector": {
+
+1. Verify installation: `code --list-extensions`
+
+2. Check VS Code version (minimum v1.85.0)### Using MCP Tools in VS Code
+
+3. Reload VS Code: `Ctrl+R` or `Developer: Reload Window`
+
+4. Check Output panel for errors: `View > Output > AI Model Detector`      "command": "vscode-ai-model-detector"npm install -g vscode-ai-model-detector
+
+
+
+### Status Bar Not ShowingOnce installed, the MCP server provides 4 tools accessible through GitHub Copilot Chat:
+
+
+
+**Issue**: No model information in status bar    }
+
+
+
+**Solutions**:1. **`detect_current_model`** - Detect currently active AI model
+
+1. Check setting: `aiModelDetector.enableStatusBar` must be `true`
+
+2. Ensure GitHub Copilot is active2. **`validate_model_access`** - List all available models  }```This creates: `vscode-ai-model-detector-1.0.0.vsix`
+
+3. Open a file (status bar requires active editor)
+
+4. Try toggling: `Ctrl+Shift+P` → "AI Model Detector: Toggle Status Bar"3. **`get_model_capabilities`** - Analyze model capabilities
+
+
+
+### Chat Participant Not Working4. **`monitor_model_changes`** - Monitor for model switches}
+
+
+
+**Issue**: `@modeldetector` command not recognized
+
+
+
+**Solutions**:### Example Usage```
+
+1. Ensure **GitHub Copilot Chat** extension is installed
+
+2. Reload VS Code window
+
+3. Open Copilot Chat panel: `Ctrl+Alt+I` or `View > Open View... > GitHub Copilot Chat`
+
+4. Try typing `@` to see available participantsIn GitHub Copilot Chat, you can now:
+
+
+
+### Model Detection Shows "Unknown"
+
+
+
+**Issue**: Extension can't detect current model```#### Restart Claude Desktop---### **Share These Files:**
+
+
+
+**Solutions**:@workspace What AI model am I currently using?
+
+1. Ensure GitHub Copilot is active and connected
+
+2. Try switching models in Copilot Chat```
+
+3. Restart VS Code
+
+4. Check GitHub Copilot status in status bar
+
+
+
+### MCP Server Not StartingThe MCP server will detect the model and return accurate information.Close and reopen Claude Desktop to load the MCP server.1. `vscode-ai-model-detector-1.0.0.vsix` (VS Code Extension)
+
+
+
+**Issue**: MCP features unavailable
+
+
+
+**Solutions**:---
+
+1. Check setting: `aiModelDetector.enableMcpIntegration` must be `true`
+
+2. Verify Node.js is installed: `node --version` (v18+ required)
+
+3. Check port 3001 is not in use
+
+4. Review Output panel: `View > Output > AI Model Detector`## ✅ Verification---## 🔧 Configuration2. Entire `mcp-server` folder (MCP Integration)
+
+
+
+---
+
+
+
+## 📚 Supported AI Models (14+)After installation, verify the setup:
+
+
+
+The extension accurately detects:
+
+
+
+### Anthropic### 1. Check Package Installation### Method 2: npx (No Installation Required)3. This installation guide
+
+- ✅ Claude Sonnet 3.5
+
+- ✅ Claude Sonnet 4
+
+- ✅ Claude Opus
+
+- ✅ Claude Haiku```bash
+
+
+
+### OpenAInpm list -g vscode-ai-model-detector
+
+- ✅ GPT-4
+
+- ✅ GPT-4o```Use npx to run the server without installing:### 1. Configure MCP in Claude Desktop
+
+- ✅ GPT-4 Turbo
+
+- ✅ o1-preview
+
+- ✅ o1-mini
+
+Expected output:
+
+### Google
+
+- ✅ Gemini 1.5 Pro```
+
+- ✅ Gemini 1.5 Flash
+
+- ✅ Gemini 2.0 Flashvscode-ai-model-detector@2.1.0```json---
+
+
+
+### GitHub```
+
+- ✅ Custom Copilot models
+
+{
+
+---
 
 ### 2. Test MCP Server
 
+## 🔐 Privacy & Security
+
   "mcpServers": {If using with Claude Desktop, add to your `claude_desktop_config.json`:
 
-Run the server manually:
+- ✅ **No External Calls**: All detection happens locally within VS Code
 
-    "ai-model-detector": {
+- ✅ **No Data Collection**: Zero telemetry or trackingRun the server manually:
 
-```bash
+- ✅ **Open Source**: Full transparency ([view source](https://github.com/thisis-romar/vscode-ai-model-detector))
 
-vscode-ai-model-detector      "command": "npx",### **For Your Dad (Installation):**
+- ✅ **No Network**: MCP server runs on localhost only (127.0.0.1:3001)    "ai-model-detector": {
 
-```
 
-      "args": ["-y", "vscode-ai-model-detector"]
 
-Expected output:
+---```bash
 
-```    }```json
 
-MCP Server started successfully
 
-Listening for commands...  }
+## 🤝 Contributingvscode-ai-model-detector      "command": "npx",### **For Your Dad (Installation):**
 
-```
 
-}{#### **Step 1: Install VS Code Extension**
 
-Press `Ctrl+C` to stop.
+Found a bug or want to contribute?```
 
-```
+
+
+1. **Report Issues**: [GitHub Issues](https://github.com/thisis-romar/vscode-ai-model-detector/issues)      "args": ["-y", "vscode-ai-model-detector"]
+
+2. **Submit PRs**: [Pull Requests](https://github.com/thisis-romar/vscode-ai-model-detector/pulls)
+
+3. **Documentation**: Help improve this guideExpected output:
+
+
+
+---```    }```json
+
+
+
+## 📄 LicenseMCP Server started successfully
+
+
+
+MIT License - See [LICENSE](LICENSE) file for detailsListening for commands...  }
+
+
+
+---```
+
+
+
+## 🔗 Links}{#### **Step 1: Install VS Code Extension**
+
+
+
+- **GitHub Repository**: https://github.com/thisis-romar/vscode-ai-model-detectorPress `Ctrl+C` to stop.
+
+- **Issues & Support**: https://github.com/thisis-romar/vscode-ai-model-detector/issues
+
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)```
+
+- **VS Code Marketplace**: Coming Soon
 
 ### 3. Verify in Claude Desktop
 
+---
+
   "mcpServers": {
+
+## 💡 Usage Examples
 
 1. Open Claude Desktop
 
+### Example 1: Detect Current Model in Chat
+
 2. Check the MCP section in settings---
 
-3. You should see "ai-model-detector" listed
+```
 
-4. Status should show "Connected" or "Ready"    "ai-model-detector": {```powershell
-
-
-
----### Method 3: Local Development Installation
+@modeldetector3. You should see "ai-model-detector" listed
 
 
+
+Response:4. Status should show "Connected" or "Ready"    "ai-model-detector": {```powershell
+
+✅ Current Model: Claude Sonnet 4 (Anthropic)
+
+📊 Model ID: claude-3-5-sonnet-20241022
+
+🎯 Detection Method: Chat Participant API
+
+✨ Accuracy: 100%---### Method 3: Local Development Installation
+
+```
+
+
+
+### Example 2: Check Status Bar
 
 ## 🌐 Multi-Platform Support      "command": "npx",# Method A: Via VS Code UI
 
+Click the status bar item (e.g., "🤖 Claude Sonnet 4") to see:
+
+- Full model name
+
+- Vendor information
+
+- Model family### WindowsFor contributing or testing:
+
+- Detection timestamp
 
 
-### WindowsFor contributing or testing:
 
-
+### Example 3: Use Keyboard Shortcut
 
 ```powershell      "args": ["-y", "vscode-ai-model-detector"]# 1. Open VS Code
 
-# Install via npm
+Press `Ctrl+Shift+M` to:
 
-npm install -g vscode-ai-model-detector```bash
+- Instantly detect current model# Install via npm
 
+- Display quick pick with model details
 
-
-# Configuration path# Clone the repository    }# 2. Press Ctrl+Shift+P
-
-%APPDATA%\Claude\claude_desktop_config.json
-
-```git clone https://github.com/thisis-romar/vscode-ai-model-detector.git
+- Access model-specific actionsnpm install -g vscode-ai-model-detector```bash
 
 
 
-### macOScd vscode-ai-model-detector  }# 3. Type "Extensions: Install from VSIX"
+---
 
 
 
-```bash
+## ⚡ Quick Start Summary# Configuration path# Clone the repository    }# 2. Press Ctrl+Shift+P
+
+
+
+1. **Install**: Via VSIX or VS Code Marketplace (coming soon)%APPDATA%\Claude\claude_desktop_config.json
+
+2. **Verify**: Check status bar shows current model
+
+3. **Test**: Use `@modeldetector` in Copilot Chat```git clone https://github.com/thisis-romar/vscode-ai-model-detector.git
+
+4. **Configure**: Adjust settings via `Ctrl+,`
+
+5. **Enjoy**: 100% accurate AI model detection!
+
+
+
+---### macOScd vscode-ai-model-detector  }# 3. Type "Extensions: Install from VSIX"
+
+
+
+**✅ You're all set!** The AI Model Detector is now installed and ready to use in VS Code.
+
+
+
+For questions or support, open an issue on [GitHub](https://github.com/thisis-romar/vscode-ai-model-detector/issues).```bash
+
 
 # Install via npm
 
