@@ -8,15 +8,15 @@ A [Visual Studio Code](https://code.visualstudio.com/) extension for real-time A
 
 ## 📑 Table of Contents
 
-- [Technical Implementation](#-technical-implementation)
-- [Chat Participant API Documentation](#-chat-participant-api-documentation)
+- [Technical Implementation](#technical-implementation)
+- [Chat Participant API Documentation](#chat-participant-api-documentation)
   - [Chat Participant API](#chat-participant-api)
   - [Language Model API](#language-model-api)
-- [Benefits & Use Cases](#-benefits--use-cases)
-- [Installation](#-installation)
-- [Related Documentation](#-related-documentation)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Benefits & Use Cases](#benefits-use-cases)
+- [Installation](#installation)
+- [Related Documentation](#related-documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## 🎯 Technical Implementation
 
