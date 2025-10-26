@@ -1,5 +1,5 @@
 {
-  "name": "@emblem-projects/ai-model-detector-mcp",
+  "name": "vscode-ai-model-detector-mcp",
   "version": "2.1.0",
   "description": "Real-time VS Code AI model detection MCP server with SQLite3 storage analysis, per-chat context awareness, and 100% accuracy",
   "main": "dist/index.js",
