@@ -5,6 +5,31 @@
 
 Real-time VS Code AI model detection MCP server with SQLite3 storage analysis, per-chat context awareness, and 100% accuracy.
 
+**Version:** 2.1.0  
+**Status:** Production Ready
+
+## ⚠️ Version Compatibility
+
+**Tested with:**
+- **VS Code:** 1.105.1 (November 2024)
+- **GitHub Copilot:** 1.388.0
+- **GitHub Copilot Chat:** 0.32.3
+
+**⚠️ Breaking Change Risk:**  
+This tool relies on VS Code's internal SQLite storage structure (`state.vscdb`) to detect the active AI model. **VS Code or GitHub Copilot updates may change the storage schema**, potentially breaking model detection functionality.
+
+**If detection stops working after an update:**
+1. Check if VS Code or Copilot was recently updated
+2. Report the issue with your versions: [GitHub Issues](https://github.com/thisis-romar/vscode-ai-model-detector/issues)
+3. Include output from: `code --version` and `code --list-extensions --show-versions | grep copilot`
+
+**Version Check:**
+```bash
+# Check your versions
+code --version
+code --list-extensions --show-versions | grep copilot
+```
+
 ## 🎯 Features
 
 - **Panel-Only Detection**: Reads the authoritative `chat.currentLanguageModel.panel` key from VS Code's storage database
