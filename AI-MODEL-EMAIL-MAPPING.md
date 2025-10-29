@@ -21,7 +21,7 @@
 |----------|--------------|---------------|
 | `copilot/claude-sonnet-3.5` | Claude Sonnet 3.5 | `admin+llm-claude-sonnet-3-5@emblemprojects.com` |
 | `copilot/claude-sonnet-3.7` | Claude Sonnet 3.7 | `admin+llm-claude-sonnet-3-7@emblemprojects.com` |
-| `copilot/claude-sonnet-4` | Claude Sonnet 4 | `admin+llm-claude-sonnet-4@emblemprojects.com` |
+| `copilot/claude-sonnet-4.5` | Claude Sonnet 4.5 | `admin+llm-claude-sonnet-4-5@emblemprojects.com` |
 
 ### Google Models  
 | Model ID | Display Name | Email Address |
@@ -47,9 +47,9 @@ Use the `Set-GitAuthorFromModel.ps1` script to automatically detect and configur
 For manual setup of a specific model:
 
 ```bash
-# Example: Claude Sonnet 4
-git config user.name "Claude Sonnet 4"
-git config user.email "admin+llm-claude-sonnet-4@emblemprojects.com"
+# Example: Claude Sonnet 4.5
+git config user.name "Claude Sonnet 4.5"
+git config user.email "admin+llm-claude-sonnet-4-5@emblemprojects.com"
 ```
 
 ## 📋 Naming Convention Rules
