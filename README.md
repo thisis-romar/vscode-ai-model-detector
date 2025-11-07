@@ -18,35 +18,37 @@ A Visual Studio Code extension that provides real-time detection and classificat
 
 ## Supported Models
 
+> **Source**: Model IDs and formats match official VS Code Chat Model enums from [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) configurationService.ts
+
 ### OpenAI GPT Series
-- GPT-4.1 (2025-04-14)
-- GPT-4o mini
-- GPT-5
-- GPT-5 mini
-- GPT-5-Codex
+- GPT-4.1 (2025-04-14) ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L529))
+- GPT-4o mini ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L530))
+- GPT-5 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L531))
+- GPT-5 mini ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L532))
+- GPT-5-Codex ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L533))
 
 ### OpenAI O-Series
-- O1
-- O1 mini
-- O3 mini
+- O1 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L535))
+- O1 mini ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L536))
+- O3 mini ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L537))
 
 ### Anthropic Claude Series
-- Claude 3.5 Sonnet
-- Claude 3.7 Sonnet
-- Claude Haiku 4.5
-- Claude Opus 4
-- Claude Opus 4.1
-- Claude Sonnet 4
-- Claude Sonnet 4.5
+- Claude 3.5 Sonnet ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L540))
+- Claude 3.7 Sonnet ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L541))
+- Claude Haiku 4.5 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L542))
+- Claude Opus 4 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L543))
+- Claude Opus 4.1 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L544))
+- Claude Sonnet 4 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L545))
+- Claude Sonnet 4.5 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L546))
 
 ### Google Gemini Series
-- Gemini 2.5 Pro
-- Gemini 2.0 Pro Experimental
-- Gemini 2.0 Flash
+- Gemini 2.5 Pro ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L550))
+- Gemini 2.0 Pro Experimental ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L551))
+- Gemini 2.0 Flash ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L552))
 
 ### Other Models
-- DeepSeek Chat
-- Grok Code Fast 1
+- DeepSeek Chat ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L555))
+- Grok Code Fast 1 ([VS Code Chat Model](https://github.com/microsoft/vscode-copilot-chat/blob/main/src/configurationService.ts#L556))
 
 ## Installation
 
